@@ -201,7 +201,7 @@ function Home() {
                      <input type="email" /><br />
                      <label>What can we do for you</label><br />
                      <select name="service" id="choices">
-                        <option value="" placeholder='Choose'>Choose</option>
+                         <option value="" placeholder='Choose'>Choose</option>
                      </select><br />
                       <label>Phone Number</label><br />
                       <select name="" id="">
