@@ -11,7 +11,9 @@ function Navbar() {
     <div>
         <nav>
             <ol style={{listStyle:'none',display:'flex',justifyContent:'space-evenly' }} >
-            <img src={logo} alt="logo" className="logo" />
+                <Link to="/">
+            <img src={logo} alt="logo" className="logo"  />
+            </Link>
             <li>
                <Link className="navlink-style" to="/about">About Us</Link>
             </li>
@@ -24,10 +26,16 @@ function Navbar() {
             <li>
                 <Link className="navlink-style" to="/advice">Allergy Advice</Link>
             </li>
-            <FaFacebook className="navlink-btn"  />
+            <Link to="https://www.facebook.com/nelson.adhikari.7">
+            <FaFacebook className="navlink-btn"/>
+            </Link>
             <FaTiktok  className="navlink-btn"/>
+            <Link to="https://www.instagram.com/nelsonadhikari/">
             <FaInstagramSquare className="navlink-btn"/>
+            </Link>
+            <Link to="/contact">
             <button className="contactbtn">Contact Us</button>
+            </Link>
             </ol>
         </nav>
     </div>

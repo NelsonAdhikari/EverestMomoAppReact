@@ -24,6 +24,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 
 
@@ -43,7 +44,9 @@ function Home() {
                 <h3>More than <span className='color'>20+ Varieties</span> of momo available for you</h3>
                  </div>
              <div>
+               <Link to="/menu">
                 <button className="expbutton">Explore Food Menu <FaArrowRight/></button>
+                </Link>
              </div>
            </div>
         <div>
@@ -108,6 +111,7 @@ function Home() {
          <h1><span className='color'>We Offer People </span>The Service They Want</h1>
          </div>
          <div className='image3'>
+            <div className='gradientdisplay'></div>
            <img src={image3} alt="image3"  />
            <h1 >Process behind the making</h1>
            <p>See how only chefs cooks only the best momos</p>
@@ -161,23 +165,29 @@ function Home() {
                      <div>
                         <h2><FaPhoneAlt/> Our Contacts</h2>
                         <div className='contactbody'>
-                        <h3>Mobile</h3>
-                        <h3>Landline</h3>
-                     </div>
+                        <div>
+                           <h3>Mobile</h3>
+                           <p><i>980 5689789</i></p>
+                           <p><i>9841 275897</i></p>
+                        </div>
                      <div>
-                        <p><i>980 5689789</i></p>
-                        <p><i>9841 275897</i></p>
+                     <h3>Landline</h3>
                         <p><i>01-4783972</i></p>
+                     </div>
                      </div>
                      </div>
                      <div>
                         <h3>Our Service Time</h3>
-                        <h4>MON-FRI</h4>
+                     </div>
+                     <div className='servicetime'>
+                     <div>
+                     <h4>MON-FRI</h4>
                         <p><i>10 am - 8 pm</i></p>
                      </div>
                      <div>
                      <h4>SAT-SUN</h4>
                         <p><i>Closed</i></p>
+                     </div>
                      </div><br />
                      <div>
                         <p><i>Get in touch in social networks</i></p> 

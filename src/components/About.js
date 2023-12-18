@@ -117,8 +117,8 @@ function About() {
         <h3>01 / 05</h3>
       </div>
          <div className="arrowbtn">
-           <IoArrowBackCircleOutline/>
-           <IoArrowForwardCircleOutline/>
+           <IoArrowBackCircleOutline className="arrbtn"/>
+           <IoArrowForwardCircleOutline className="arrbtn"/>
         </div> 
       </div>
       <div>

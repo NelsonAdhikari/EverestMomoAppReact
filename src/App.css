@@ -49,6 +49,12 @@
        border-style:none;
 }
 
+.servicetime{
+    display: flex;
+    gap: 50px;
+
+}
+
 .navlink-style{
     text-decoration:none;
     color:#6B788E;
@@ -250,6 +256,10 @@
     
 }
 
+.gradientdisplay{
+    background: lineargradient();
+}
+
 .socialmedia{
    
 }
@@ -257,7 +267,7 @@
 .contactbody{
     justify-content: space-around;
     display: flex;
-    margin-right: 10rem;
+   
 }
 
 .footerheader{
