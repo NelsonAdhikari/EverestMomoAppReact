@@ -1,0 +1,70 @@
+.mainallergyheader{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.header{
+    font-family: Allura;
+    font-size: 23px;
+}
+
+.adviceimg{
+    height: 23rem;
+    margin-left: 50rem;
+    margin-top: -25%;
+}
+
+.carddesign{
+    border: solid 3px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3rem;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #0C6967;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.brush3{
+    height: 12px;
+    margin-top: 2rem;
+   margin-left: 10%;
+   
+}
+
+.brush4{
+     height: 12px;
+    margin-top: 2rem;
+   margin-right: 10%;
+}
+
+.inged{
+    font-family: Chela One;
+}
+
+.loremallergy{
+   justify-content: center;
+   margin-left: 10rem;
+}
+
+.masala{
+   height: 45rem;
+   position: absolute;
+   z-index: 1;
+   margin-top: -15%;
+   margin-left: 10rem;
+}
+
+.oval1{
+    position: absolute;
+    height: 20rem;
+    margin-left: 23rem;
+}
+
+.oval2{
+    position: absolute;
+    height: 25rem;
+    margin-left: 50rem;
+    margin-top: -26%;
+}

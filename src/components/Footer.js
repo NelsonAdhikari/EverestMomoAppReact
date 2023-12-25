@@ -13,7 +13,7 @@ function Footer() {
    </div>
 
    <div className='footermomo'>
-<h3><b className='color3'>momos</b></h3>
+    <h3><b className='color3'>momos</b></h3>
     <p>About Us</p>
     <p>Our Menu</p>
     <p>Our Services</p>
