@@ -1,0 +1,27 @@
+.contactheader{
+    text-align: center;
+    font-family: Allura;
+    margin-top: 5rem;
+    font-size: 29px;
+}
+
+.contactdesc{
+    text-align: center;
+}
+
+.cardflexer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    border-radius: 10px 10px 10px 10px;
+    border: 1px shadow small;
+    
+}
+
+.contactformheader{
+    display: flex;
+    gap: 4rem;
+}
+
