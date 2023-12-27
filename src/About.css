@@ -1,152 +1,213 @@
-.about{
+/* Default styles */
+
+.about {
     font-family: Allura;
-font-size: 29px;
-margin-top: 6rem;
+    font-size: 29px;
+    margin-top: 6rem;
 }
 
-.headerabout{
+.headerabout {
     margin-left: 6rem;
 }
 
-.aboutimg{
+.aboutimg {
     margin-left: 45rem;
     margin-top: -25%;
 }
 
-.abtimg{
+.abtimg {
     width: 25rem;
 }
 
-.processimg{
+.processimg {
     margin-top: 5rem;
     width: 83rem;
     height: 30rem;
 }
 
-.procdes{
+.procdes {
     margin-top: -17%;
     margin-left: 7rem;
     color: #ffff;
     font-size: 20px;
 }
 
-.watchbtn{
-    background-color:#0C6967;
+.watchbtn {
+    background-color: #0C6967;
     border-radius: 100px 100px 90px;
     border-style: none;
-    width: '190px';
+    width: 190px;
     height: 50px;
     color: white;
 }
 
-.aboutbody{
+.aboutbody {
     padding-left: 6rem;
-   margin-top: 5rem;
+    margin-top: 5rem;
 }
 
-.imgabout{
+.imgabout {
     margin-left: 47rem;
     margin-top: -16%;
-    height:25rem;
+    height: 25rem;
 }
 
-.momoinline{
+.momoinline {
     width: 200px;
     margin-left: 40rem;
     margin-top: -7rem;
 }
 
-.tasteabout{
+.tasteabout {
     margin-top: 5rem;
     height: 25rem;
     margin-left: 5rem;
 }
 
-.frymmo{
+.frymmo {
     height: 7rem;
     margin-top: -9%;
     margin-left: 30rem;
 }
 
-.tasteheader{
+.tasteheader {
     margin-left: 50rem;
     margin-top: -32%;
 }
 
-.tradheader{
+.tradheader {
     margin-top: 18rem;
     margin-left: 5rem;
 }
 
-.tradimg{
+.tradimg {
     height: 22rem;
     margin-left: 50rem;
     margin-top: -21%;
 }
 
-.momoking{
+.momoking {
     height: 10rem;
     margin-left: 43rem;
     margin-top: -9%;
 }
 
-.bgshadow{
+.bgshadow {
     height: 22.3rem;
-    /* margin-left: 5rem; */
     margin-top: 3rem;
-    /* width: 45rem; */
 }
 
-.quote{
+.quote {
     color: #ffff;
     margin-top: -24%;
     margin-left: 10rem;
     font-size: 17px;
-    font-family: Proxima Nova;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
-.quoteimg{
+.quoteimg {
     height: 23rem;
     margin-left: 50.1rem;
     width: 33rem;
     margin-top: -30%;
 }
 
-.teamheading{
+.teamheading {
     text-align: center;
     margin-top: 3rem;
 }
 
-.cardcontainer{
+.cardcontainer {
     display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
     justify-content: space-around;
 }
 
-.contentcenter{
+.contentcenter {
     display: flex;
+    flex-wrap: wrap; /* Allow content to wrap to the next line on smaller screens */
     justify-content: space-around;
     margin-top: -5%;
     color: #ffff;
 }
 
-.numberarrbtn{
+.numberarrbtn {
     display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
 }
 
-.numberarrow{
-  margin-left: 3rem;
-   
+.numberarrow {
+    margin-left: 3rem;
 }
 
-.arrowbtn{
-   margin-left: 70rem;
-   margin-top: 1rem;
+.arrowbtn {
+    margin-left: 2rem; /* Adjusted margin value */
+    margin-top: 1rem;
 }
 
-.arrbtn{
-   width: 26px;
-   height: 30px;
-   
+.arrbtn {
+    width: 26px;
+    height: 30px;
 }
 
+/* Media query for responsiveness */
 
+@media only screen and (max-width: 1200px) {
+    .about,
+    .headerabout,
+    .aboutimg,
+    .procdes,
+    .watchbtn,
+    .imgabout,
+    .momoinline,
+    .tasteabout,
+    .frymmo,
+    .tasteheader,
+    .tradheader,
+    .tradimg,
+    .momoking,
+    .bgshadow,
+    .quote,
+    .quoteimg,
+    .teamheading,
+    .cardcontainer,
+    .contentcenter,
+    .numberarrbtn {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .arrowbtn {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about,
+    .headerabout,
+    .aboutimg,
+    .procdes,
+    .watchbtn,
+    .imgabout,
+    .momoinline,
+    .tasteabout,
+    .frymmo,
+    .tasteheader,
+    .tradheader,
+    .tradimg,
+    .momoking,
+    .bgshadow,
+    .quote,
+    .quoteimg,
+    .teamheading,
+    .cardcontainer,
+    .contentcenter,
+    .numberarrbtn {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .arrowbtn {
+        margin-left: 0.5rem;
+    }
+}

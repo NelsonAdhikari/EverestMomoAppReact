@@ -4,8 +4,7 @@ import "../Menu.css"
 import "../App.css"
 import scan from "../images/Scan.png"
 import { MdOutlinePhoneAndroid } from "react-icons/md";
-import brush from '../images/BRUSHES.png'
-import brush2 from '../images/BRUSHES (1).png'
+import { Brush, Brush2 } from '../Brush'
 import bmomo from '../images/pngwing 2 (2).png'
 import chillymomo from '../images/chilli-momo.png'
 import bfmomo from '../images/pngegg 1 (2).png'
@@ -34,9 +33,9 @@ with a variety of dishes to cater to all tastes and preferences.</h2>
      </div>
      </div>
      <div className='momoheader'>
-      <img src={brush} alt="" className='brush2'  />
+      <Brush/>
       <h2><span className='color'>BUFF</span> MOMO's</h2>
-     <img src={brush2} alt="" className='brush2' />
+      <Brush2/>
      </div>
      <div className='momoflex1'>
      <div>
@@ -76,9 +75,9 @@ with a variety of dishes to cater to all tastes and preferences.</h2>
      </div>
      </div>
      <div className='momoheader'>
-      <img src={brush} alt="" className='brush2'  />
+      <Brush/>
       <h2><span className='color'>CHICKEN</span> MOMO's</h2>
-     <img src={brush2} alt="" className='brush2' />
+     <Brush2/>
      </div>
      <div className='momoflex1'>
      <div>

@@ -1,27 +1,44 @@
-.contactheader{
+/* Default styles */
+
+.contactheader {
     text-align: center;
     font-family: Allura;
     margin-top: 5rem;
     font-size: 29px;
 }
 
-.contactdesc{
+.contactdesc {
     text-align: center;
 }
 
-.cardflexer{
+.cardflexer {
     display: flex;
     justify-content: space-around;
 }
 
-.card1{
-    border-radius: 10px 10px 10px 10px;
-    border: 1px shadow small;
-    
+.card1 {
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Add a border style */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+    margin: 10px; /* Add some margin */
 }
 
-.contactformheader{
+.contactformheader {
     display: flex;
     gap: 4rem;
 }
 
+/* Media query for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .cardflexer {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        align-items: center; /* Center items in the column */
+    }
+
+    .contactformheader {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        align-items: center; /* Center items in the column */
+        gap: 2rem; /* Reduce the gap between items */
+    }
+}

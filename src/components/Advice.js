@@ -3,8 +3,7 @@ import Navbar from './Navbar'
 import "../App.css"
 import "../Advice.css"
 import serviceimg from "../images/Group 8 (1).png"
-import brush from '../images/BRUSHES.png'
-import brush2 from '../images/BRUSHES (1).png'
+
 import "../Menu.css"
 import { Card } from 'react-bootstrap'
 import scan from "../images/Scan.png"
@@ -13,6 +12,7 @@ import Footer from './Footer'
 import masala from "../images/vecteezy_spices-and-herbs-on-a-transparent-background_13526617_618 1@2x.png"
 import oval1 from "../images/Vector (1).png"
 import oval2 from "../images/Vector (2).png"
+import { Brush, Brush2 } from '../Brush'
 
 function Advice() {
   return (
@@ -36,9 +36,9 @@ function Advice() {
         <img src={serviceimg} alt="" className='adviceimg' />
       </div>
       <div className='momoheader'>
-      <img src={brush} alt="" className='brush3'  />
+      <Brush/>
         <h2 className='inged'><span className='color'>Ingredient's</span> Used</h2>
-      <img src={brush2} alt="" className='brush4' />
+      <Brush2/>
       </div>
       <div>
         <img src={oval1} alt="" className='oval1' />
@@ -46,11 +46,12 @@ function Advice() {
       <div>
         <Card>
           <Card.Body className='carddesign'>
-            <h3>For the Dought</h3>
+            <h3>For the Dought:</h3>
+            <ul style={{listStyle:'none'}}>
             <li>120 gms refined flour</li><br />
             <li>1/4 tsp baking powder</li><br />
             <li>1/2 tsp salt water (for kneading)</li><br />
-            
+            </ul>
           </Card.Body>
         </Card>
       </div>
@@ -58,6 +59,7 @@ function Advice() {
       <Card>
           <Card.Body className='carddesign'>
             <h3>For the Chicken Filling:</h3>
+            <ul style={{listStyle:'none'}}>
             <li>1 cup chicken (minced)</li><br />
             <li>1/4 tsp black pepper powder</li><br />
             <li>1 tbsp oil</li><br />
@@ -65,6 +67,7 @@ function Advice() {
             <li>1/2 tsp soya sauce</li><br />
             <li>Salt</li><br />
             <li>1/4 tsp vinegar</li><br />
+            </ul>
           </Card.Body>
         </Card>
       </div>
@@ -75,6 +78,7 @@ function Advice() {
       <Card>
           <Card.Body className='carddesign'>
             <h3>For the Vegetarian Filling:</h3>
+            <ul style={{listStyle:'none'}}>
             <li>1 cup cabbage and carrots, grated</li><br />
             <li>2 tbsp onions , finely chopped</li><br />
             <li>1/2 tsp garlic, finely chopped</li><br />
@@ -83,7 +87,8 @@ function Advice() {
             <li>1/2 tsp soya sauce</li><br />
             <li>to taste salt</li><br />
             <li>to taste pepper</li><br />
-            <li>1 tbsp cornflour</li><br />    
+            <li>1 tbsp cornflour</li><br />
+            </ul>    
           </Card.Body>
         </Card>
       </div>
@@ -91,6 +96,7 @@ function Advice() {
       <Card>
           <Card.Body className='carddesign'>
             <h3>For Chilli Sauce:</h3>
+            <ul style={{listStyle:'none'}}>
             <li>25 gram garlic, peeled</li><br />
             <li>6 gms whole red chillies</li><br />
             <li>3 tbsp vinegar</li><br />
@@ -99,6 +105,7 @@ function Advice() {
             <li>to taste salt</li><br />
             <li>to taste salt</li><br />
             <li>to taste sugar</li><br />  
+            </ul>
           </Card.Body>
         </Card>
       </div>
@@ -106,9 +113,9 @@ function Advice() {
         <img src={oval2} alt="" className='oval2' />
       </div> <br /><br /><br />
       <div className='momoheader'>
-      <img src={brush} alt="" className='brush3'  />
+      <Brush/>
         <h2 className='inged'><span className='color'>Allergy</span> Advice</h2>
-      <img src={brush2} alt="" className='brush4' />
+      <Brush2/>
       </div>
       <div className='loremallergy'>
         <p>Lorem ipsum dolor sit amet consectetur. Feugiat lectus sit est blandit in gravida. Nisl facilisis luctus sit porttitor placerat purus tincidunt. Cursus <br /> nascetur a mauris odio quis sociis pretium nisl. In viverra diam dis montes orci congue vulputate magna ullamcorper. Semper tellus ipsum felis <br /> maecenas ultrices turpis amet euismod malesuada. Amet sed neque vitae malesuada quis sed urna. <br /> <br />

@@ -42,46 +42,56 @@ function Service() {
         <button className='watchbtn' ><IoPlayCircleOutline/> Watch the video</button>
       </div>
       </div>
-      <div className='privateparty'>
-         <div className='privparty'>
+
+
+
+      <div style={{display:'flex', justifyContent:'space-around', paddingTop:'5rem'}}>
+        <div>
+          <div>
           <img src={party} alt="" />
           <h2>Private Party</h2>
           <p className='color2'>Lorem ipsum dolor sit amet consectetur. Lectus faucibus <br /> lorem ac adipiscing. Leo odio tincidunt ipsum magna lacus <br /> viverra tincidunt.</p>
           </div>
-        <div className='qrscanner'>
-           <div>
-            <h2 className='color3'>Scan the QR code</h2>
+          <div style={{display:'flex', gap:'1rem'}}>
+            <div>
+          <h2 className='color3'>Scan the QR code</h2>
             <p className='color2'>You can also check about the service</p>
-           </div>
-          <div>
-           <img src={vectorqr} alt="" />
+            </div>
+            <div>
+            <img src={vectorqr} alt="" />
+            </div>
           </div>
         </div>
-      </div>
-      <div className='image6'>
+        <div>
         <img src={image6} alt="" className='img6' />
+        </div>
       </div>
-      <div className='cater'>
-      <div className='image7'>
+
+      <div style={{display:'flex', justifyContent:'space-around', paddingTop:'5rem'}}>
+      <div>
         <img src={image6} alt="" className='img6' />
-      </div>
-      <div className='categring'>
-         <div className='categ'>
+        </div>
+
+        <div>
+          <div>
           <img src={catering} alt="" />
           <h2>Categring</h2>
           <p className='color2'>Lorem ipsum dolor sit amet consectetur. Lectus faucibus <br /> lorem ac adipiscing. Leo odio tincidunt ipsum magna lacus <br /> viverra tincidunt.</p>
           </div>
-        <div className='qrscanner'>
-           <div>
-            <h2 className='color3'>Scan the QR code</h2>
+          <div style={{display:'flex', gap:'1rem'}}>
+            <div>
+          <h2 className='color3'>Scan the QR code</h2>
             <p className='color2'>You can also check about the service</p>
-           </div>
-          <div>
-           <img src={vectorqr} alt="" />
+            </div>
+            <div>
+            <img src={vectorqr} alt="" />
+            </div>
           </div>
         </div>
-      </div>
-      </div>
+        </div>
+     
+
+
       <div className='query'>
         <h2>Got Any Queries?</h2>
         <p className='color2'>If you have any queries, send us a message. Our Friendly team would love to hear from you</p>
